@@ -1,0 +1,13 @@
+class Machine {
+	public Machine() {
+		System.out.println("Constructor is running!");
+	}
+}
+public class App {
+
+	public static void main(String[] args) {
+		Machine m1 = new Machine();
+		new Machine();
+	}
+
+}
